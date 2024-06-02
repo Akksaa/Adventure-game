@@ -47,8 +47,7 @@ while (true) {
 
         let takenDamage: number = Math.floor(Math.random() * userDamage)+1;
         let givenDamage: number = Math.floor(Math.random() * enemyDamage)+1;
-        // userDamage -= takenDamage;
-        // enemyDamage -= givenDamage;
+    
         userHealth = userHealth - takenDamage;
         enemyHealth = enemyHealth - givenDamage;
 
